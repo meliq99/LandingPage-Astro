@@ -184,37 +184,7 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"blog": {
-"complete-guide-fullstack-development.md": {
-	id: "complete-guide-fullstack-development.md";
-  slug: "complete-guide-fullstack-development";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"essential-data-structures-algorithms.md": {
-	id: "essential-data-structures-algorithms.md";
-  slug: "essential-data-structures-algorithms";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"how-to-become-frontend-master.md": {
-	id: "how-to-become-frontend-master.md";
-  slug: "how-to-become-frontend-master";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"kitchensink.mdx": {
-	id: "kitchensink.mdx";
-  slug: "kitchensink";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
-};
-"team": {
+		"team": {
 "aelissa-quinonez.md": {
 	id: "aelissa-quinonez.md";
   slug: "aelissa-quinonez";
