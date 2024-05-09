@@ -1,6 +1,6 @@
 ---
 import { Picture } from "astro:assets";
-import heroImage from "assets/hero.png";
+import heroImage from "assets/slavery.png";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon";
 ---
@@ -11,9 +11,9 @@ import { Icon } from "astro-icon";
   <div class="py-6 md:order-1 hidden md:block">
     <Picture
       src={heroImage}
-      alt="Astronaut in the air"
-      widths={[200, 400, 600]}
-      sizes="(max-width: 800px) 100vw, 620px"
+      alt="childs work"
+      widths={[200, 300, 400]}
+      sizes="(max-width: 500px) 100vw, 400px"
       loading="eager"
       format="avif"
     />
@@ -22,35 +22,14 @@ import { Icon } from "astro-icon";
     <h1
       class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter"
     >
-      Compass WalkFree
+      WalkFree Compass
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      COMPASS es una herramienta de monitoreo y seguimiento que incentive y
-      permita a las empresas evaluar e informar su progreso en la implementación
-      de las recomendaciones proporcionadas por el Modern Slavery Benchmarking
-      Tool
+      WalkFree Compass es una herramienta de evaluación comparativa única,
+      diseñada para medir el progreso y alinear esfuerzos con los estándares
+      globales contra la esclavitud moderna. En WalkFree Compass, entendemos que
+      el camino hacia la libertad es un viaje conjunto, y estamos aquí para
+      guiar a cada paso del camino.
     </p>
-    <!-- <div class="mt-6 flex flex-col sm:flex-row gap-3">
-      <Link
-        href="#"
-        href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
-        target="_blank"
-        class="flex gap-1 items-center justify-center"
-        rel="noopener">
-        <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
-
-        Download for Free
-      </Link>
-      <Link
-        size="lg"
-        style="outline"
-        rel="noopener"
-        href="https://github.com/surjithctly/astroship"
-        class="flex gap-1 items-center justify-center"
-        target="_blank">
-        <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-        GitHub Repo
-      </Link>
-    </div> -->
   </div>
 </main>
