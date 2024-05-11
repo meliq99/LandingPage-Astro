@@ -8,7 +8,8 @@ module.exports = {
         sans: ["Inter Variable", "Inter", ...defaultTheme.fontFamily.sans],
       },
       colors:{
-        "blue-main":'#023047',
+        // "blue-main":'#023047',
+        "blue-main":'#003459',
         "yellow-main": '#ffb703',
         "orange-main":'#fb8500',
         "blue-second":'#219ebc'

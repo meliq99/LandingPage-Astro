@@ -17,28 +17,27 @@ const menuitems = [
 ---
 
 <Container>
-  <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+  <header class="flex flex-col lg:flex-row justify-between items-center my-5 text-xl">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">WalkFree </span><span
-            class="text-slate-500"
-            >Compass
-          </span>
+          ><span class=" text-xl text-blue-main font-bold text-slate-800"
+            >WalkFree
+          </span><span class=" text-xl text-slate-500">Compass </span>
         </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
         </div>
       </div>
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
-        <ul class="flex flex-col lg:flex-row lg:gap-3">
+        <ul class="text-blue-main flex flex-col lg:flex-row lg:gap-4">
           {
             menuitems.map((item, index) => (
               <>
                 <li>
                   <a
                     href={item.path}
-                    class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900"
+                    class="  text-blue-main flex lg:px-6 py-2 items-center text-gray-600 hover:text-gray-900"
                   >
                     <span> {item.title}</span>
                   </a>
@@ -47,16 +46,16 @@ const menuitems = [
             ))
           }
         </ul>
-        <div class="lg:hidden flex items-center mt-3 gap-4">
+        <!-- <div class="text-blue-second lg:hidden flex items-center mt-3 gap-4">
           <Link href="#" style="muted" block size="md">Log in</Link>
           <Link href="#" size="md" block>Sign up</Link>
-        </div>
+        </div> -->
       </MenuItems>
     </Astronav>
     <div>
-      <div class="hidden lg:flex items-center gap-4">
+      <div class="text-blue-main hidden lg:flex items-center gap-5">
         <a href="#">Iniciar Sección</a>
-        <Link href="#" size="md"> Registrate </Link>
+        <Link href="#" size="md" class="bg-blue-second"> Registrate </Link>
       </div>
     </div>
   </header>
