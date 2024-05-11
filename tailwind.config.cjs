@@ -11,7 +11,7 @@ module.exports = {
         "blue-main":'#023047',
         "yellow-main": '#ffb703',
         "orange-main":'#fb8500',
-        "blue-second":''
+        "blue-second":'#219ebc'
   
       }
     },
