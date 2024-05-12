@@ -15,15 +15,23 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 <Layout title="About">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Conócenos</Fragment>
+      <Fragment slot="title">
+        <h1
+          class="text-blue-main text-4xl lg:text-5xl font-bold lg:tracking-tight"
+        >
+          Conócenos
+        </h1>
+      </Fragment>
       <Fragment slot="desc"></Fragment>
     </Sectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
-      <h2 class=" text-blue-main font-bold text-3xl text-gray-800">Rompiendo cadenas.</h2>
+      <h2 class="font-bold text-3xl text-blue-main">
+        Cadenas Rotas Vidas Restauradas
+      </h2>
       <p class="text-lg leading-relaxed text-slate-500">
         ¡Somos un equipo multidisciplinario! Venimos de diversos areas del
-        conocimiento y aportamos diferentes perspectivas, experiecnias y
+        conocimiento y aportamos diferentes perspectivas, experiencias y
         habilidades al trabajo. Lo que hace que nuestro equipo sea especial.
       </p>
     </div>
